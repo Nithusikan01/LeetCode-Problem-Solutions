@@ -5,6 +5,8 @@ class Solution(object):
         :rtype: bool
         """
         num_str = str(x)
+
+
         limit = len(num_str)//2
         for i in range(limit):
             if num_str[i] != num_str[-(i+1)]:
