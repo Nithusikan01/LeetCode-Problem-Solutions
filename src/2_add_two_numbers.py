@@ -10,7 +10,7 @@ class Solution:
         2. Assign dymmy to current node
         
     	3. loop it untill all the digits are added to result LL.
-        	i. get the values same index nodes from both LL
+        	i. get the values of identical indexed nodes from both LL
             ii. sum them up with the old carry
             iii. find the new carry
             iv. store the digit in the next node
@@ -78,4 +78,3 @@ def run(num1: int, num2: int) -> None:
 
 if __name__ == "__main__":
     run(120, 220)
-    
